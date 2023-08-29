@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Question and Answer</title>
+    <style>
+        #answer {
+            width: 200px;
+            height: 50px;
+            font-weight: bold;
+            position: relative;
+            animation: mymove 3s;
+        }
+
+        body {
+            font-family: Calibri, sans-serif;
+            font-size: 3em;
+        }
+
+        #answer {animation-timing-function: linear;}
+
+        #answer {
+            color: rgb(231, 10, 10);
+            width: 100px;         
+        }
+
+        @keyframes mymove {
+                from {
+                    left: -200px;
+                }
+
+                to {
+                    left: 25px;
+                }
+            }
+
+
+        span {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="question">
+        <span id="question">Question: &frac14; + &frac12; =</span>
+        <span id="answer">&frac34;</span>
+
+    </div>
+</body>
+
+
+
+</html>
