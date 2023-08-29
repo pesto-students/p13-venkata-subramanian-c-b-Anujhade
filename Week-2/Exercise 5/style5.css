@@ -1,0 +1,63 @@
+nav {
+    display: inline-block;
+    margin-bottom: 20px;
+    word-spacing: 10px;
+
+}
+
+article>.checkedone {
+    color: orange;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+article>.checkedtwo {
+    color: orange;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+footer {
+    margin-top: 100px;
+    
+}
+h3>a:link {
+    color: rgb(102, 12, 221);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h3>a:visited {
+    color: rgba(122, 12, 224, 0.678);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+h3>a:hover {
+    color: rgb(14, 223, 195);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+nav>a:hover {
+    color: rgb(13, 182, 233);
+    background-color: transparent;
+    
+}
+
+form{
+    display: block;
+    background-color: rgb(154, 219, 219);
+    padding: 15px;
+    margin-left: 20px;
+    max-width: fit-content;
+    line-height: 30px;
+    
+}
+
+.contact{
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+
+   
+}
