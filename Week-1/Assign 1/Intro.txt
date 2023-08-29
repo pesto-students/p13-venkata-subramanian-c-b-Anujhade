@@ -1,0 +1,76 @@
+What is a protocol stack, and how is it used in web development?
+
+A web service protocol stack is a protocol stack (a stack of computer networking protocols) that is used to define, locate, implement, and make Web services interact with each other. A web service protocol stack typically stacks four protocols: 
+1. Link Layer 
+2. Network Layer 
+3. Transport Layer 
+4. Application Layer
+The stack resides in each client and server, and the layered approach lets different protocols be swapped in and out to accommodate different network architectures.
+Each layer has its responsibility to make a connection of two devices connected on/over the internet.
+
+What are the different types of web servers, and how do they differ in terms of functionality and performance?
+To publish a website, you need either a static or a dynamic web server.
+A static web server, or stack, consists of a computer (hardware) with an HTTP server (software). We call it "static" because the server sends its hosted files as-is to your browser.
+A dynamic web server consists of a static web server plus extra software, most commonly an application server and a database. We call it "dynamic" because the application server updates the hosted files before sending content to your browser via the HTTP server.
+For example, to produce the final webpages you see in the browser, the application server might fill an HTML template with content from a database. Sites like MDN or Wikipedia have thousands of webpages. Typically, these kinds of sites are composed of only a few HTML templates and a giant database, rather than thousands of static HTML documents. This setup makes it easier to maintain and deliver the content.
+
+What is web hosting, and what are the different types of hosting services available for websites?
+Websites are hosted on servers, which are powerful pieces of hardware that house websites and data related to those sites.
+Every component of your website is stored on a server and accessed through your web host. This includes elements like files, text, images, videos — everything.
+Servers are physically located in data centres, which are typically run and managed by different web hosting companies.
+Web hosts provide the technology and server space required for your website to be accessed on the Internet. This allows users to search for your site and view your web pages online.
+All websites are different. That’s why there are different servers to meet their needs.
+Multiple websites might share a single server. Meanwhile some websites have a server to themselves.
+
+
+There are four main types of web hosting:
+Shared hosting
+VPS (virtual private server) hosting
+Dedicated hosting
+Cloud hosting
+Reseller hosting and WordPress hosting are also specific types of hosting that fall within these categories.
+
+Shared Hosting
+Shared hosting is the most basic type of web hosting. It’s cost-effective and the best choice for small or entry-level websites.
+
+As the name implies, websites using shared hosting will be sharing resources with other websites on a single server. This works well because the vast majority of websites don’t need a whole server of their own.
+Shared hosting is a great choice for beginners and smaller websites. It’s cost-effective and doesn’t require lots of technical knowledge to get started.
+
+VPS Hosting
+VPS stands for “virtual private server.” This hosting type is a step above shared web hosting. When a website outgrows their shared plan, it’s common for owners to upgrade to a VPS.
+With a virtual private server, your website will still be sharing a single server with other websites. However, the number of websites you’ll be sharing it with is significantly lower.
+The main server is split into multiple virtual servers—hence the name. These virtual servers can be customized by individual websites.
+
+WordPress Hosting
+WordPress hosting optimizes for WordPress as your content management system.
+You’ll see two different types of WordPress hosting offered by providers.
+Shared WordPress hosting
+Managed WordPress hosting
+Shared WordPress hosting works the same way as regular shared hosting, except WordPress might be pre-installed.
+Managed WordPress hosting provides added benefits like enhanced security, server caching, staging, and faster loading speeds.
+
+Dedicated Hosting
+Dedicated servers are typically considered the best choice in web hosting. That’s because you have a dedicated server that belongs to you, and you alone. You typically get more benefits with dedicated hosting too such as more uptime and faster speeds.
+However, it comes with a catch: This is the most expensive type of web hosting.
+What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
+Server scaling is the process of adjusting and expanding your current server configuration to boost your server’s performance.
+As a result, server scaling allows your dedicated server to effectively handle a larger number of incoming requests and manage an increased workload.
+You can scale up your server in two different ways:
+By adding more hardware components to your current server configuration (e.g. by adding more RAM or storage to your dedicated server), which is known as vertical scaling.
+By adding more servers to your hosting configuration to increase its power, which is called horizontal scaling. This configuration is also known as a server cluster.
+Vertical Scaling
+Also called scaling up, vertical scaling means adding more hardware components to your current server. This improves the performance of your server so it can effectively cope with increased traffic. You can add more memory, storage, and processing power to increase a server’s performance. By doing so, you can effectively increase your server’s speed and reduce your page load time.
+Vertical scaling is a strategy that is easy to implement and is relatively cheap. That’s because adding additional resources to your current server typically costs less than buying a new server.
+Horizontal Scaling
+Horizontal scaling, also known as scaling out, means adding additional servers to your hosting configuration to increase the overall performance of your hosting solution.
+Essentially, scaling out creates a server cluster that is able to handle more incoming requests to your hosted services by distributing the workload.
+So, for example, if you’re hosting a large website on a server that isn’t capable of handling a large amount of traffic, you might want to consider adding another server.
+The biggest advantage of scaling out with a server cluster is that it eliminates the single point of failure servers have. So, if one server fails, users don’t experience any downtime as another server immediately takes on the workload.
+
+What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
+SEO stands for search engine optimization. SEO practitioners optimize websites, web pages and content for the purposes of ranking higher in search engines, like Google. SEO is a set of practices designed to improve the appearance, positioning, and usefulness of multiple types of content in the organic search results. This content can include web pages, video media, images, local business listings, and other assets. Because organic search is the top method via which people discover and access online content, utilizing SEO best practices is essential for ensuring that the digital content you publish can be found and chosen by the public, increasing your website’s organic traffic.
+In order to understand how SEO works, it’s vital to have a basic understanding of how search engines work. Search engines use crawlers (also known as spiders or bots) to gather information across the internet to populate their big databases, called “indexes”. Crawlers begin from a known web page and then follow links from that page to other pages.
+Search engines’ success as businesses depends on the public finding search engine results to be relevant to their needs. The more links a search engine like Google finds pointing from a particular type of content to a particular resource, the more confident it becomes that the linked-to resource is relevant to certain search queries. The search engine then determines that this resource deserves to be ranked highly when people make those queries.
+
+There are three main categories of SEO: on-page SEO, off-page SEO, and technical SEO, all of which combine to help search engines discover, crawl, index, understand, and rank your content, and this article will cover each of these topics.
+
