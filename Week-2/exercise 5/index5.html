@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Rating</title>
+    <style>
+        #form{
+            display: inline-block;
+            background-color: rgb(125, 209, 224);
+            color: rgb(26, 27, 27);
+            padding: 10px
+           
+        }
+        
+        label{
+            display:inline-block ;
+            width: 100px;
+            margin-bottom: 5px;
+            padding: 5px;
+
+        }
+        h1{
+            text-align: center;
+        }
+
+        span{
+            color: red;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    
+<div id="form">
+
+        <h1>Rate A Product</h1>
+
+        <form>
+
+            <p><span>*</span>Indicate required field</p>
+
+            <label for="fname">Product<span>*</span></label>
+            <input type="text" name="fname"><br>
+
+            <label for="fname">Purchase Date<span>*</span></label>
+            <input type="text" name="fname"><br>
+
+            <label for="fname">Rating<span>*</span></label>
+            <input type="number" min="0" max="5" name="fname"><br>
+
+            <label for="aboutyou">Comments<span>*</span></label>
+            <textarea name="About you" id="" cols="30" rows="10"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
