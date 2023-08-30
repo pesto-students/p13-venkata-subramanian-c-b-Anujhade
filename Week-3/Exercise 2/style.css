@@ -1,0 +1,70 @@
+* {
+    margin: 5px;
+
+}
+
+.head {
+    background-color: lightgreen;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+
+}
+
+.styling>h2 {
+    text-decoration: underline;
+    color: lightcoral;
+}
+
+.imagetwo {
+
+    background-color: lightseagreen;
+    width: 245px;
+    height: 311px;
+    padding: 5px;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: baseline;
+    justify-items: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-right: 200px;
+
+
+
+}
+
+.column {
+    float: left;
+    /* width: 45%; */
+    padding: 5px;
+
+}
+
+
+.ingredients {
+
+    position: initial;
+    margin-top: 50%;
+}
+
+.directions {
+    margin-top: -375px;
+    margin-left: 500px;
+    max-width: 500px;
+
+}
+
+#ingredientadjust {
+    margin-top: -300px;
+    margin-left: 200px;
+    margin-right: 100px;
+
+}
+
+.related-content {
+    margin-top: -730px;
+    margin-left: 20px;
+    display: grid;
+}
