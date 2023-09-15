@@ -1,0 +1,25 @@
+#container{
+    height: 300px;
+    width: 450px;
+    background-color: purple;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: palevioletred ;
+}
+
+
+p{
+
+    color: aliceblue;
+
+}
+
+
+h2{
+    background-color: darkcyan;
+    padding: 5px;
+    border: solid;
+    
+    border-width: 2px ;
+}
